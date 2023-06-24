@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background: linear-gradient(to right, #fd7b03, #04f704);
+}
+
+header {
+    display: block;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#wordsContainer {
+    font-size: 1.5em;
+    margin-top: 20px;
+    font-weight:lighter;
+}
+
+.container {
+    justify-content: center;
+    align-items:center;
+    display: flex;
+    flex-direction:column;
+    height: 80vh;
+}
+
+.button-container button {
+    margin: 15px;
+    background-color: #f9a909;
+}
+
+#createButton,
+#reConstructButton {
+    width: 125px;
+    background-color:  #f9a909;
+}
+
+#Pronounce {
+    background-color: #fcc352;
+    border-radius: 17px;
+    border:#f72c04;
+    height: 70px;
+}
+
+.randomButton {
+    border:#f74d04;
+    background-color: #fcc352;
+    width: 170px;
+    border-radius: 12px;
+}
